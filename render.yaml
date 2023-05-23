@@ -1,5 +1,6 @@
 services:
   - type: web
+    region: frankfurt
     name: sveltekit
     env: node
     buildCommand: npm install && npm run build
